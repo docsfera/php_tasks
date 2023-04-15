@@ -1,0 +1,148 @@
+body{
+	padding: 40px;
+	display: flex;
+	background: #F6F6F8;
+	font-family: "Inter", sans-serif;
+}
+.tasks{
+	display: flex;
+	flex-wrap: wrap;
+	width: 70vw;
+}
+.task{
+	
+	display: block;
+	position: relative;
+	width: 200px;
+	padding: 10px;
+	height: auto;
+	background: white;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	border-radius: 10px;
+}
+.task:hover{
+	scale: 1.05;
+}
+.task__settings{
+	cursor: pointer;
+	position: absolute;
+	top: 5%;
+	right: 5%;
+
+}
+.oval{
+	width: 5px;
+	height: 5px;
+	background: gray;
+	border-radius: 100%;
+	margin-bottom: 3px;
+}
+.task__item{
+	font-size: 14px;
+	margin: 0;
+	color: #C5C5C5;
+}
+.task__name{
+	margin: 0;
+	margin-bottom: 10px;
+}
+.users{
+	width: 30vw;
+	padding-left: 20px;
+}
+.users__title{
+	margin: 0;
+	margin-bottom: 20px;
+	font-size: 32px;
+	font-weight: 700; 
+	line-height: 1.3; 
+
+}
+.users__form{
+	display: flex;
+}
+.users__select{
+	cursor: pointer;
+	display: block; 
+	font-size: 16px; 
+	font-weight: 700; 
+	color: #444; 
+	line-height: 1.3; 
+	padding: .6em 1.4em .5em .8em; width: 100%; 
+	box-sizing: border-box; 
+	margin: 0; 
+	margin-right: 20px;
+
+	border: 1px solid #aaa;
+	box-shadow: 0 1px 0 1px rgba(0,0,0,.04); 
+	border-radius: .5em;
+	appearance: none;
+	background-color: #fff; 
+}
+.users__input{
+	width: 200px;
+	background: #28A745;
+	color: white;
+	border-radius: 10px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+.create__link{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	width: 400px;
+	height: 50px;
+	background: #007BFF;
+	font-size: 18px;
+	color: white;
+	font-weight: 700;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.create_task__title{
+	font-size: 28px;
+}
+.create_task__paragraph{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.create_task__input{
+	height: 20px;
+}
+.button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+	width: 400px;
+	height: 50px;
+	background: #007BFF;
+	font-size: 18px;
+	color: white;
+	font-weight: 700;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.buttons{
+	display: flex;
+	justify-content: space-between;
+	width: 400px;
+}
+.button-delete{
+	text-decoration: none;
+	width: 180px;
+	background: #DC3545;
+}
+.button-update{
+	width: 180px;
+	background: #007BFF;
+
+}
